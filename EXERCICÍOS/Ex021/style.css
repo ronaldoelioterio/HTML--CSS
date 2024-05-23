@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+h1 {
+    text-align: center;
+    background-color: lightgray;
+    
+    height: 300px;
+    width: 300px;
+
+    border: 10px solid  rgb(96, 94, 94);
+
+    padding: 10px;
+
+    margin: 20px auto 40px auto;
+
+    outline: 5px dashed rgb(46, 109, 46);
+    }
+
+a {
+
+    border: 10px solid rgb(175, 88, 88);
+
+    padding: 10px;
+}

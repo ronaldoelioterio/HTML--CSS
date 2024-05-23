@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: ;
+    src: url();
+}
+
+body {
+    background-image: linear-gradient(to right,#B098A4, #6B2737 );
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #4B5842, #37423D);
+    height: 250px;
+}
+
+header h1 {
+    padding: 80px;
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+}
+
+main {
+    background-color: #fff;
+    max-width: 950px;
+    min-width: 280px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px;
+    margin: auto;
+}
