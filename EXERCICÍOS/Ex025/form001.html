@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        * {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        body {
+            background-color: rgb(118, 117, 97);
+        }
+
+        form {
+            background-image: linear-gradient(to right, rgb(159, 159, 218), rgb(94, 168, 94));
+            border-radius: 10px;
+            box-shadow: 9px 5px 15px rgba(0, 0, 0, 0.422);
+            padding: 20px;
+            width: 500px;
+            position: absolute;
+            bottom: 35%;
+            left: 13%;
+        }
+    </style>
+</head>
+<body>
+    <form action="cadastro.php" method="post">
+        <p><label for="inome">Nome:</label> 
+            <input type="text" name="Nome" id="inome">
+        </p>
+        <p><label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="Sobrenome" id="isobrenome">
+        </p>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
