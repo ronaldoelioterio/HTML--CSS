@@ -7,11 +7,16 @@
     }
 
     menu {
-        display: block;
+        display: block !important;
     }
 
     menu > ul > li {
         display: inline-block;
+    }
+
+    main {
+        max-width: 1000px;
+        height: 75vh;
     }
 }
 
